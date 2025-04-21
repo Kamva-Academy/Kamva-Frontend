@@ -29,7 +29,7 @@ const CourseCard = ({ rate, state, text, title }: cartProps): any => {
 				<Typography sx={{ color: "#000000", paddingInline: "1.8rem", fontSize: "20px", fontWeight: "400", alignSelf: "flex-start" }}>{text}</Typography>
 				<Box sx={{ display: "flex", flexDirection: "row", alignItems: "center", alignSelf: "flex-start", paddingInline: "1.8rem" }}>
 					<StarIcon sx={{ color: "gold", width: "3rem", height: "3rem" }} />
-					<Typography sx={{ color: "#00000075", fontSize: "20px", fontWeight: "400", paddingTop: "0.5rem", fontFamily: "IRANYekan" }}>{rate}</Typography>
+					<Typography sx={{ color: "#00000075", fontSize: "20px", fontWeight: "400", paddingTop: "0.5rem" }}>{rate}</Typography>
 				</Box>
 				<Box sx={{ display: "flex", paddingInline: "1rem", flexDirection: "row", alignItems: "center", justifyContent: "flex-end", width: "100%", paddingBottom: "1.4rem" }}>
 					<Box sx={{ background: "#00376F9E !important", width: "3rem", height: "3rem", borderRadius: "50%", display: "flex", alignItems: "center", justifyContent: "center" }}>

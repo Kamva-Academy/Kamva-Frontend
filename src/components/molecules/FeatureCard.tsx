@@ -17,7 +17,7 @@ const FeatureCard = ({ iconImage, backgroundColor, description }: FeatureCardPro
 			minHeight={{ xs: 280, md: 320 }} alignItems="center" justifyContent="space-evenly"
 			sx={{ padding: 2, background: backgroundColor, boxShadow: "6px 6	px 4px 0px #00000040", borderRadius: 12 }}>
 			<Image style={{ userSelect: 'none', pointerEvents: 'none' }} src={iconImage} alt="" />
-			<Typography sx={{ color: "#000000", textAlign: "center", fontSize: descriptionFontSizes, padding: "1rem", fontWeight: "400", fontFamily: "IRANYekan" }}>
+			<Typography sx={{ color: "#000000", textAlign: "center", fontSize: descriptionFontSizes, padding: "1rem", fontWeight: "400" }}>
 				{description}
 			</Typography>
 		</Stack >

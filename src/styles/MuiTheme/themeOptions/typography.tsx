@@ -1,9 +1,9 @@
 import { TypographyOptions } from '@mui/material/styles/createTypography';
 
 const typography: TypographyOptions = {
-  fontFamily: "iranyekan",
+  fontFamily: "IRANYekanX",
   allVariants: {
-    fontFamily: "'IRANYekan', 'Lalezar'",
+    fontFamily: "'IRANYekanX', 'Lalezar'",
     fontWeight: 400,
   },
   h1: {
